@@ -1,0 +1,149 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(122, 122, 122);
+/*	color: rgb(144, 144, 144);*/
+	background-color: rgb(240,207,200);
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	margin: 10px;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	flex-direction: right;
+}
+
+.items {
+	align-items: center;
+	border: 4px solid pink;
+	margin: 5px;
+
+}
+
+.statementHeaders {
+	text-align: center;
+}
+
+#aboutMe {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	background-color: rgb(240,207,200);
+	color: white;
+}
+
+.navlinks {
+	color: white;
+	text-decoration: none;
+}
+
+#nav {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(218, 187, 139);
+	padding: 5px;
+}
+
+.navlinks:hover {
+	background-color: white;
+	color: rgb(218, 187, 139);
+}
+#nav:hover {
+	background-color: white;
+	opacity: 0.6;
+}
+
+.navli {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+h3 {
+	text-align: center;
+}
+
+.projectTitle {
+	text-align: center;
+}
+
+.projects {
+	border: 2px solid lime;
+	margin: 10px;
+}
+
+.projects p {
+	justify-content: center;
+}
+
+.contact {
+	margin-right: 15px;
+	color: white;
+}
+
+.contact:hover {
+	color: rgb(218, 187, 139);
+}
+
+.dev-icons {
+	color: rgb(218, 187, 139);
+}
+
+#popcornProject {
+	background-color: rgb(122,122,122);
+    padding: 20px;
+}
+
+#videoProject {
+	background-color: rgb(122,122,122);
+    padding: 20px;
+}
+
+#projectThree {
+	background-color: rgb(122,122,122);
+    padding: 20px;
+}
+
+#projectFour {
+	background-color: rgb(122,122,122);
+    padding: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(218, 187, 139);
+	padding: 5px;
+}
+
+footer:hover {
+	background-color: white;
+	color: rgb(218, 187, 139);
+	opacity: 0.6
+}
+
+.test {
+	width: 25vw;
+	text-align: center;
+}
+
+#skills {
+	text-align: center;
+	background-color: rgba(218, 187, 139);
+	color: white;
+}
+
+#quote {
+	background-color: rgba(122,122,122, 0.4);
+	color: white;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
