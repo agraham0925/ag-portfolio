@@ -1,10 +1,11 @@
 console.log("js file connected");
 
-('#popcornProject').hover(
-	function () {
-		$(this).css({"background-color": "black"});
-	},
-	function () {
-		$(this).hide();
-	}
-);
+// $('#teammate').hover(
+// 		function() {
+// 		console.log(this)
+
+// 		const newText = $('p').text('add this new text');
+
+// 		newText.appendTo('p');
+// 	}
+// );
