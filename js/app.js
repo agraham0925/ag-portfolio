@@ -1,11 +1,11 @@
 console.log("js file connected");
 
-// $('#teammate').hover(
+// $('#teammate').mouseover(
 // 		function() {
 // 		console.log(this)
 
-// 		const newText = $('p').text('add this new text');
+// 		const newText = $('#teammate').text('add this new text');
 
-// 		newText.appendTo('p');
+// 		// newText.appendTo('p');
 // 	}
 // );
