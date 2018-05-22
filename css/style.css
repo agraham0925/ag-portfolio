@@ -16,13 +16,23 @@ body {
 }
 
 #transbox {
-  margin: 20px;
+  margin: 0;
   background-color: rgba(122, 122, 122,.7);
   color: white;
   /*font-size: 4em;*/
   padding: 5px;
+  width: 100vw;
   text-align: center;
+}
 
+.headers {
+	margin: 0;
+	background-color: rgba(122, 122, 122,.7);
+	color: white;
+	/*font-size: 4em;*/
+	padding: 5px;
+	width: 100vw;
+	text-align: center;
 }
 
 #container {
@@ -155,7 +165,7 @@ i {
 footer {
 	display: flex;
 	justify-content: space-around;
-	background-color: rgb(218, 187, 139);
+	background-color: rgb(240,207,200);
 	padding: 5px;
 }
 
@@ -170,14 +180,6 @@ footer:hover {
 	background-color: rgb(218, 187, 139);
 	color: white;
 	padding: 10px;
-}
-
-#quote {
-	background-color: rgba(255,255,255, 0.6);
-	color: rgb(218, 187, 139);
-	padding: 10px;
-	margin: 0;
-	text-align: center;
 }
 
 .currentProjects {
