@@ -1,11 +1,26 @@
 console.log("js file connected");
 
-// $('#teammate').mouseover(
-// 		function() {
-// 		console.log(this)
+let teamPersonal = $('<p/>').text("PERSONALpsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim")
+teamPersonal.attr('id', "teamPersonal");
 
-// 		const newText = $('#teammate').text('add this new text');
+$('#teammate').hover(
+		function() {
+		console.log(this)
 
-// 		// newText.appendTo('p');
-// 	}
-// );
+		$('#teamOriginal').hide();
+		$('#teammate').append(teamPersonal);
+
+
+		// newText.appendTo('p');
+
+		//on hover hide my text and replace with new text and background
+		// on remove hover, revert to original
+	}
+);
+
+
+// $("p").hover(function(){
+//     $(this).css("background-color", "yellow");
+//     }, function(){
+//     $(this).css("background-color", "pink");
+// });
