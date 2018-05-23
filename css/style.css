@@ -53,8 +53,9 @@ body {
 	margin-bottom: 10px;
 	background-color: rgb(218, 187, 139);
 	color: white;
-	/*padding: 20px;*/
+	padding: 35px;
 	width: 25vw;
+	border: 3px solid white;
 }
 
 .items:hover {
@@ -78,7 +79,7 @@ body {
 }
 
 .navlinks {
-	color: rgb(218, 187, 139);
+	color: rgb(122, 122, 122);
 	text-decoration: none;
 }
 
@@ -90,7 +91,7 @@ body {
 	margin-bottom: 5px;
 	/*width: 100%;*/
 	z-index:2;
-	border: 3px solid rgb(218, 187, 139);
+	/*border: 3px solid rgb(218, 187, 139);*/
     /*position: fixed;*/
     /*top: 0;*/
     /*margin: 0;*/
@@ -98,8 +99,8 @@ body {
 }
 
 .navlinks:hover {
-	background-color: rgba(218, 187, 139, 0.4);
-	color: white;
+	/*background-color: rgba(218, 187, 139, 0.4);*/
+	color: rgb(240,207,200);
 	padding: 7px;
 }
 
