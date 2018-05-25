@@ -194,3 +194,12 @@ i {
 	justify-content: center;
 	align-content: space-between;
 }
+
+#about-me {
+	display: flex;
+	justify-content: space-around;
+}
+
+#about-header {
+	justify-content: center;
+}
