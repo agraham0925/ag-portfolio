@@ -1,6 +1,6 @@
 console.log("js file connected");
 
-let teamPersonal = $('<p/>').text("Torem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim")
+let teamPersonal = $('<p/>').text("I'm an avid ultimate frisbee player and have played for the mixed club team ELevate the last 5 summers.")
 teamPersonal.attr({
 	id: "teamPersonal",
 	class: "statement-p"
