@@ -12,7 +12,7 @@ commPersonal.attr({
 	class: "statement-p"
 });
 
-let studentPersonal = $('<p/>').text("Sorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim")
+let studentPersonal = $('<p/>').text("I strive to find the best possible solutions. I believe the way to find them is through continued education and constantly looking for opportunities to learn more.")
 studentPersonal.attr({
 	id: "studentPersonal",
 	class: "statement-p"
