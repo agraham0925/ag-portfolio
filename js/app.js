@@ -1,18 +1,18 @@
 console.log("js file connected");
 
-let teamPersonal = $('<p/>').text("I'm an avid ultimate frisbee player and have played for the mixed club team ELevate the last 5 summers.")
+let teamPersonal = $('<p/>').text("I'm an avid ultimate frisbee player, playing for the mixed club team ELevate for five summers.")
 teamPersonal.attr({
 	id: "teamPersonal",
 	class: "statement-p"
 });
 
-let commPersonal = $('<p/>').text("Corem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim")
+let commPersonal = $('<p/>').text("I am mindful of what others are saying, ask clarifying questions, and rephrase to ensure understanding.")
 commPersonal.attr({
 	id: "commPersonal",
 	class: "statement-p"
 });
 
-let studentPersonal = $('<p/>').text("I strive to find the best possible solutions. I believe the way to find them is through continued education and constantly looking for opportunities to learn more.")
+let studentPersonal = $('<p/>').text("I believe the way to find best possible solutions is through continued education.")
 studentPersonal.attr({
 	id: "studentPersonal",
 	class: "statement-p"
