@@ -54,8 +54,9 @@ body {
 	margin-bottom: 5px;
 	background-color: rgb(218, 187, 139);
 	color: white;
-	padding: 50px;
+	box-sizing: border-box;
 	width: 35vw;
+	height: 35vh;
 	border: 3px solid white;
 }
 
@@ -63,6 +64,9 @@ body {
 	background-color: rgba(240,207,200, 0.1);
 	color: rgb(218, 187, 139);
 	border: 3px solid rgb(218, 187, 139);
+	box-sizing: border-box;
+	height: 35vh;
+	width: 35vw;
 }
 
 .statement-p {
@@ -71,6 +75,7 @@ body {
 
 .statementHeaders {
 	text-align: center;
+	margin-top: 25px;
 }
 
 #aboutMe {
