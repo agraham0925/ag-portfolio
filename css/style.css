@@ -235,6 +235,10 @@ button {
 	margin: 10px;
 }
 
+button:hover {
+	background-color: rgb(218, 187, 139);
+}
+
 
 
 
