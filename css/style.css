@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	color: rgb(122, 122, 122);
 }
 
@@ -71,15 +71,18 @@ body {
 
 .statement-p {
 	margin: 30px;
+	font-family: 'Bitter', serif;
 }
 
 .statementHeaders {
 	text-align: center;
 	margin-top: 25px;
+	font-family: 'Bitter', serif;
 }
 
 #aboutMe {
 	text-align: center;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .navlinks {
@@ -89,6 +92,7 @@ body {
 }
 
 #nav {
+	font-family: 'Permanent Marker', cursive;
 	display: flex;
 	justify-content: space-around;
 	/*background-color: rgb(122, 122, 122);*/
@@ -118,6 +122,11 @@ body {
 	text-align: center;
 }
 
+#projects-intro {
+	font-family: 'Bitter', serif;
+	text-align: center;
+}
+
 .projectTitle {
 	text-align: center;
 }
@@ -130,6 +139,7 @@ body {
 	text-align: center;
 	background-color: white;
 	color: rgb(122,122,122);
+	font-family: 'Bitter', serif;
 }
 
 .contact {
@@ -203,13 +213,11 @@ i {
 }
 
 #about-me {
-	/*display: flex;*/
-	/*justify-content: space-around;*/
 	margin-bottom: 20px;
+	font-family: 'Bitter', serif;
 }
 
 #about-me-text {
-	/*text-align: center;*/
 	padding: 10px;
 }
 
@@ -234,7 +242,7 @@ button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 20px;
 	margin: 10px;
 }
 
