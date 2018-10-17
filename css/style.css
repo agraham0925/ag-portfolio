@@ -142,6 +142,20 @@ body {
 	font-family: 'Bitter', serif;
 }
 
+.current {
+	border: 4px solid rgb(218, 187, 139);
+	box-shadow: 5px 10px rgba(122,122,122, 0.3);
+	margin: 10px;
+	width: 50vw;
+	text-align: center;
+	/*background-color: rgb(218, 187, 139);*/
+	background-color: #f0cfc8;
+	background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);
+	color: white;
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
+	font-family: 'Bitter', serif;
+}
+
 .contact {
 	/*margin-right: 15px;*/
 	color: rgb(122, 122, 122);
@@ -207,9 +221,14 @@ i {
 }
 
 .currentProjects {
-	display: flex;
-	justify-content: center;
-	align-content: space-between;
+	/*display: flex;*/
+	/*justify-content: center;
+	align-content: space-between;*/
+	text-align: center;
+}
+
+.current {
+	display: inline-block;
 }
 
 #about-me {
