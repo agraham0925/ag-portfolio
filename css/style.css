@@ -251,6 +251,7 @@ i {
     height: 100%;
     display: block;
     margin: 0 auto;
+    border-radius: 15%;
 }
 
 button {
