@@ -1,18 +1,35 @@
+:root {
+	--pink: rgb(240,207,200);;
+	--gold:rgb(218, 187, 139);
+};
+
 body {
 	font-family: 'Permanent Marker', cursive;
 	color: rgb(122, 122, 122);
 }
 
+#projects-body {
+	/*background-color: #f0cfc8;*/
+	/*background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);*/
+	color: white;
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
+	font-family: 'Bitter', serif;
+
+	background-color: #FFFFFF;
+	background-image: linear-gradient(45deg, #FFFFFF 0%, #f0cfc8 50%, #dabb8b 100%);
+
+}
+
 .bar {
-	background-color: rgb(240,207,200);
-	color: rgb(240,207,200);
+	background-color: var(--pink);;
+	color: var(--pink);;
 	margin-bottom: 5px;
 	/*padding: 8px;*/
 }
 
 #gold-bar {
-	background-color: rgb(218, 187, 139);
-	color: rgb(218, 187, 139);
+	background-color: var(--gold);;
+	color: var(--gold);;
 	margin-bottom: 5px;
 	/*padding: 8px;*/
 }
@@ -29,7 +46,7 @@ body {
 #transbox {
   /*background-color: rgba(122, 122, 122,.4);*/
   color: rgb(122, 122, 122);
-  border: 4px solid rgb(218, 187, 139);
+  border: 4px solid var(--gold);;
   padding: 5px;
   text-align: center;
   margin-bottom: 5px;
@@ -52,7 +69,7 @@ body {
 .items {
 	align-items: center;
 	margin-bottom: 5px;
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
 	color: white;
 	box-sizing: border-box;
 	width: 35vw;
@@ -62,8 +79,8 @@ body {
 
 .items:hover {
 	background-color: rgba(240,207,200, 0.1);
-	color: rgb(218, 187, 139);
-	border: 3px solid rgb(218, 187, 139);
+	color: var(--gold);;
+	border: 3px solid var(--gold);;
 	box-sizing: border-box;
 	height: 35vh;
 	width: 35vw;
@@ -100,7 +117,7 @@ body {
 	margin-bottom: 5px;
 	/*width: 100%;*/
 	z-index:2;
-	/*border: 3px solid rgb(218, 187, 139);*/
+	/*border: 3px solid var(--gold);;*/
     /*position: fixed;*/
     /*top: 0;*/
     /*margin: 0;*/
@@ -108,8 +125,9 @@ body {
 }
 
 .navlinks:hover {
-	color: rgb(240,207,200);
+	color: var(--pink);;
 	text-decoration: none;
+	text-shadow: 5px 5px 10px black;
 	/*padding: 7px;*/
 }
 
@@ -120,6 +138,7 @@ body {
 
 .projectsHeader {
 	text-align: center;
+	margin-top: 0;
 }
 
 #projects-intro {
@@ -132,7 +151,7 @@ body {
 }
 
 .projects {
-	border: 4px solid rgb(218, 187, 139);
+	border: 4px solid var(--gold);;
 	box-shadow: 5px 10px rgba(122,122,122, 0.3);
 	margin: 10px;
 	width: 50vw;
@@ -143,16 +162,13 @@ body {
 }
 
 .current {
-	border: 4px solid rgb(218, 187, 139);
+	border: 4px solid var(--gold);;
 	box-shadow: 5px 10px rgba(122,122,122, 0.3);
 	margin: 10px;
 	width: 50vw;
 	text-align: center;
-	/*background-color: rgb(218, 187, 139);*/
-	background-color: #f0cfc8;
-	background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);
-	color: white;
-	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
+	background-color: white;
+	color: rgb(122, 122, 122);
 	font-family: 'Bitter', serif;
 }
 
@@ -162,13 +178,13 @@ body {
 }
 
 .contact:hover {
-	color: rgb(240,207,200);
+	color: var(--pink);;
 }
 
 footer {
 	display: flex;
 	justify-content: space-around;
-	/*color: rgb(218, 187, 139);*/
+	/*color: var(--gold);;*/
 }
 
 .footer {
@@ -176,12 +192,12 @@ footer {
 }
 
 .footer:hover {
-	color: rgb(240,207,200);
+	color: var(--pink);;
 }
 
 #skills {
 	text-align: center;
-	background-color: rgb(240,207,200);
+	background-color: var(--pink);;
 	color: rgb(122, 122, 122);
 	padding: 10px;
 	margin-top: 5px;
@@ -201,22 +217,22 @@ i {
 }
 
 #popcornProject {
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
     padding: 10px;
 }
 
 #videoProject {
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
     padding: 10px;
 }
 
 #projectThree {
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
     padding: 10px;
 }
 
 #projectFour {
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
     padding: 10px;
 }
 
@@ -245,7 +261,7 @@ i {
 }
 
 #photo {
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
     padding: 10px;
     max-width: 100%;
     height: 100%;
@@ -255,7 +271,7 @@ i {
 }
 
 button {
-	background-color: rgb(240,207,200);
+	background-color: var(--pink);;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -267,11 +283,24 @@ button {
 }
 
 button:hover {
-	background-color: rgb(218, 187, 139);
+	background-color: var(--gold);;
 }
 
 
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 
+.box {
+	border: 2px solid red;
+	text-align: center;
+	margin: 1em;
+	flex: 0 1 45%;
+	height: 50vh;
+	padding: 0.5em;
+}
 
 
 
