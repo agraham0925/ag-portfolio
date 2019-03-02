@@ -1,5 +1,5 @@
 :root {
-	--pink: rgb(240,207,200);;
+	--pink: rgb(240,207,200);
 	--gold:rgb(218, 187, 139);
 	--gray: rgb(122, 122, 122);
 };
@@ -20,15 +20,15 @@ body {
 }
 
 .bar {
-	background-color: var(--pink);;
-	color: var(--pink);;
+	background-color: var(--pink);
+	color: var(--pink);
 	margin-bottom: 5px;
 	/*padding: 8px;*/
 }
 
 #gold-bar {
-	background-color: var(--gold);;
-	color: var(--gold);;
+	background-color: var(--gold);
+	color: var(--gold);
 	margin-bottom: 5px;
 	/*padding: 8px;*/
 }
@@ -44,8 +44,8 @@ body {
 
 #transbox {
   /*background-color: rgba(122, 122, 122,.4);*/
-  color: var(--gray);;
-  border: 4px solid var(--gold);;
+  color: var(--gray);
+  border: 4px solid var(--gold);
   padding: 5px;
   text-align: center;
   margin-bottom: 5px;
@@ -69,7 +69,7 @@ body {
 	align-items: center;
 	margin-bottom: 5px;
 	background-color: var(--gold);
-	color: var(--gray);;
+	color: var(--gray);
 	box-sizing: border-box;
 	width: 35vw;
 	height: 35vh;
@@ -78,8 +78,8 @@ body {
 
 .items:hover {
 	background-color: rgba(240,207,200, 0.1);
-	color: var(--gold);;
-	border: 3px solid var(--gold);;
+	color: var(--gold);
+	border: 3px solid var(--gold);
 	box-sizing: border-box;
 	height: 35vh;
 	width: 35vw;
@@ -102,7 +102,7 @@ body {
 }
 
 .navlinks {
-	color: var(--gray);;
+	color: var(--gray);
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -111,12 +111,12 @@ body {
 	font-family: 'Permanent Marker', cursive;
 	display: flex;
 	justify-content: space-around;
-	/*background-color: var(--gray);;*/
+	/*background-color: var(--gray);*/
 	padding: 5px;
 	margin-bottom: 5px;
 	/*width: 100%;*/
 	z-index:2;
-	/*border: 3px solid var(--gold);;*/
+	/*border: 3px solid var(--gold);*/
     /*position: fixed;*/
     /*top: 0;*/
     /*margin: 0;*/
@@ -124,7 +124,7 @@ body {
 }
 
 .navlinks:hover {
-	color: var(--pink);;
+	color: var(--pink);
 	text-decoration: none;
 	text-shadow: 5px 5px 10px black;
 	/*padding: 7px;*/
@@ -152,7 +152,7 @@ body {
 }
 
 .projects {
-	border: 4px solid var(--gold);;
+	border: 4px solid var(--gold);
 	box-shadow: 5px 10px rgba(122,122,122, 0.3);
 	margin: 10px;
 	width: 50vw;
@@ -164,49 +164,52 @@ body {
 }
 
 .current {
-	border: 4px solid var(--gold);;
+	border: 4px solid var(--gold);
 	box-shadow: 5px 10px rgba(122,122,122, 0.3);
 	margin: 10px;
 	width: 50vw;
 	text-align: center;
 	background-color: white;
-	color: var(--gray);;
+	color: var(--gray);
 	font-family: 'Bitter', serif;
 }
 
 .contact {
 	/*margin-right: 15px;*/
-	color: var(--gray);;
+	color: var(--gray);
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
 }
 
 .contact:hover {
-	color: var(--pink);;
+	color: var(--pink);
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
 }
 
 footer {
 	display: flex;
 	justify-content: space-around;
-	/*color: var(--gold);;*/
+	/*color: var(--gold);*/
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
 }
 
 .footer {
-	color: var(--gray);;
+	color: var(--gray);
 }
 
 .footer:hover {
-	color: var(--pink);;
+	color: var(--pink);
 }
 
 #skills {
 	text-align: center;
-	background-color: var(--pink);;
-	color: var(--gray);;
+	background-color: var(--pink);
+	color: var(--gray);
 	padding: 10px;
 	margin-top: 5px;
 }
 
 i {
-	/*color: var(--gray);;*/
+	/*color: var(--gray);*/
 	padding: 20px;
 }
 
@@ -219,22 +222,22 @@ i {
 }
 
 #popcornProject {
-	background-color: var(--gold);;
+	background-color: var(--gold);
     padding: 10px;
 }
 
 #videoProject {
-	background-color: var(--gold);;
+	background-color: var(--gold);
     padding: 10px;
 }
 
 #projectThree {
-	background-color: var(--gold);;
+	background-color: var(--gold);
     padding: 10px;
 }
 
 #projectFour {
-	background-color: var(--gold);;
+	background-color: var(--gold);
     padding: 10px;
 }
 
@@ -263,7 +266,7 @@ i {
 }
 
 #photo {
-	background-color: var(--gold);;
+	background-color: var(--gold);
     padding: 10px;
     max-width: 100%;
     height: 100%;
@@ -273,7 +276,7 @@ i {
 }
 
 button {
-	background-color: var(--pink);;
+	background-color: var(--pink);
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -285,7 +288,7 @@ button {
 }
 
 button:hover {
-	background-color: var(--gold);;
+	background-color: var(--gold);
 }
 
 
