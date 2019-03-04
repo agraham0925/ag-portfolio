@@ -193,7 +193,7 @@ footer {
 }
 
 .footer {
-	color: var(--gray);
+	color: var(--gray) !important;
 }
 
 .footer:hover {
@@ -209,7 +209,7 @@ footer {
 }
 
 i {
-	/*color: var(--gray);*/
+	/* color: var(--gray); */
 	padding: 20px;
 }
 
