@@ -22,6 +22,11 @@ body {
 	background-color: var(--gold);
 }
 
+.circle:hover {
+	background-color: var(--pink);
+	transition-duration: 2s;
+}
+
 #projects-body {
 	/*background-color: #f0cfc8;*/
 	/*background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);*/
