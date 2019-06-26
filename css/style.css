@@ -9,47 +9,7 @@ body {
 	color: var(--gray);
 }
 
-/* HOME STYLES */
-.container {
-	display: grid;
-	grid-template-columns: 200px 200px 200px 200px 200px;
-	grid-template-rows: 300px;
-	grid-gap: 50px 50px;
-	/* justify-content: space-around; */
-}
-
-.circle {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	background-color: var(--gold);
-	text-align: center;
-    line-height: 10;
-}
-
-.circle a {
-	color: white;
-	font-family: 'Permanent Marker', cursive;
-	font-size: 20px;
-}
-
-.circle:hover {
-	background-color: var(--pink);
-	text-shadow: 5px 5px 10px black;
-	/* color: var(--gray); */
-	transition-duration: 1.5s;
-}
-
-#projects-body {
-	/*background-color: #f0cfc8;*/
-	/*background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);*/
-	color: var(--gray);
-	font-family: 'Bitter', serif;
-	background-color: #FFFFFF;
-	/* background-image: linear-gradient(45deg, #FFFFFF 0%, #f0cfc8 50%, #dabb8b 100%); */
-
-}
-
+/* MAIN HEADER BARS */
 .bar {
 	background-color: var(--pink);
 	color: var(--pink);
@@ -83,6 +43,125 @@ body {
   margin-top: 5px;
 }
 
+/* END - MAIN HEADER BARS */
+
+/* HOME STYLES */
+.container {
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-template-rows: 300px;
+	grid-gap: 50px 50px;
+}
+
+.circle {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: var(--gold);
+	text-align: center;
+	line-height: 10;
+	margin-top: 50px;
+}
+
+.circle a {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.circle:hover {
+	background-color: var(--pink);
+	text-shadow: 5px 5px 10px black;
+	transition-duration: 1.5s;
+}
+
+/* END - HOME PAGE STYLES */
+
+/* PROJECT PAGE STYLES */
+#projects-body {
+	/*background-color: #f0cfc8;*/
+	/*background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);*/
+	color: var(--gray);
+	font-family: 'Bitter', serif;
+	background-color: #FFFFFF;
+	/* background-image: linear-gradient(45deg, #FFFFFF 0%, #f0cfc8 50%, #dabb8b 100%); */
+
+}
+
+.projectsHeader {
+	text-align: center;
+	margin-top: 0;
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
+}
+
+#projects-intro {
+	font-family: 'Bitter', serif;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
+}
+
+.projectTitle {
+	text-align: center;
+}
+
+.projects {
+	border: 4px solid var(--gold);
+	box-shadow: 5px 10px rgba(122,122,122, 0.3);
+	margin: 10px;
+	width: 50vw;
+	text-align: center;
+	background-color: white;
+	color: rgb(122,122,122);
+	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
+	font-family: 'Bitter', serif;
+}
+
+.current {
+	border: 4px solid var(--gold);
+	box-shadow: 5px 10px rgba(122,122,122, 0.3);
+	margin: 10px;
+	width: 50vw;
+	text-align: center;
+	background-color: white;
+	color: var(--gray);
+	font-family: 'Bitter', serif;
+}
+
+#popcornProject {
+	background-color: var(--gold);
+    padding: 10px;
+}
+
+#videoProject {
+	background-color: var(--gold);
+    padding: 10px;
+}
+
+#projectThree {
+	background-color: var(--gold);
+    padding: 10px;
+}
+
+#projectFour {
+	background-color: var(--gold);
+    padding: 10px;
+}
+
+.currentProjects {
+	/*display: flex;*/
+	/*justify-content: center;
+	align-content: space-between;*/
+	text-align: center;
+}
+
+.current {
+	display: inline-block;
+}
+
+/* END - PROJECTS PAGE STYLES */
+
+/* MISC STYLES */
 #container {
 	display: flex;
 	justify-content: space-around;
@@ -127,80 +206,7 @@ body {
 	font-family: 'Bitter', serif;
 }
 
-#aboutMe {
-	text-align: center;
-	font-family: 'Permanent Marker', cursive;
-}
-
-.navlinks {
-	color: var(--gray);
-	text-decoration: none;
-	font-size: 3em;
-}
-
-#nav {
-	font-family: 'Permanent Marker', cursive;
-	display: flex;
-	flex-direction: row;
-    justify-content: space-around;
-	padding: 5px;
-	margin-bottom: 5px;
-	z-index:2;
-}
-
-.navlinks:hover {
-	color: var(--pink);
-	text-decoration: none;
-	text-shadow: 5px 5px 10px black;
-	/*padding: 7px;*/
-}
-
-.navli {
-	list-style-type: none;
-	text-decoration: none;
-}
-
-.projectsHeader {
-	text-align: center;
-	margin-top: 0;
-	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
-}
-
-#projects-intro {
-	font-family: 'Bitter', serif;
-	text-align: center;
-	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
-}
-
-.projectTitle {
-	text-align: center;
-}
-
-.projects {
-	border: 4px solid var(--gold);
-	box-shadow: 5px 10px rgba(122,122,122, 0.3);
-	margin: 10px;
-	width: 50vw;
-	text-align: center;
-	background-color: white;
-	color: rgb(122,122,122);
-	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
-	font-family: 'Bitter', serif;
-}
-
-.current {
-	border: 4px solid var(--gold);
-	box-shadow: 5px 10px rgba(122,122,122, 0.3);
-	margin: 10px;
-	width: 50vw;
-	text-align: center;
-	background-color: white;
-	color: var(--gray);
-	font-family: 'Bitter', serif;
-}
-
 .contact {
-	/*margin-right: 15px;*/
 	color: var(--gray);
 	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
 }
@@ -210,6 +216,31 @@ body {
 	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
 }
 
+/* END - MISC STYLES */
+
+/* ABOUT ME STYLES */
+
+#aboutMe {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#about-me {
+	margin-bottom: 20px;
+	font-family: 'Bitter', serif;
+}
+
+#about-me-text {
+	padding: 10px;
+}
+
+#about-header {
+	text-align: center;
+}
+
+/* END - ABOUT ME STYLES */
+
+/* FOOTER STYLES */
 footer {
 	display: flex;
 	justify-content: space-around;
@@ -227,6 +258,9 @@ footer {
 	text-shadow: 5px 5px 10px black;
 }
 
+/* END - FOOTER STYLES */
+
+/* CURRENTLY NOT USING - SKILLS STYLES
 #skills {
 	text-align: center;
 	background-color: var(--pink);
@@ -236,7 +270,7 @@ footer {
 }
 
 i {
-	/* color: var(--gray); */
+	color: var(--gray); 
 	padding: 20px;
 }
 
@@ -247,50 +281,7 @@ i {
 #back-end {
 	margin-bottom: 0px;
 }
-
-#popcornProject {
-	background-color: var(--gold);
-    padding: 10px;
-}
-
-#videoProject {
-	background-color: var(--gold);
-    padding: 10px;
-}
-
-#projectThree {
-	background-color: var(--gold);
-    padding: 10px;
-}
-
-#projectFour {
-	background-color: var(--gold);
-    padding: 10px;
-}
-
-.currentProjects {
-	/*display: flex;*/
-	/*justify-content: center;
-	align-content: space-between;*/
-	text-align: center;
-}
-
-.current {
-	display: inline-block;
-}
-
-#about-me {
-	margin-bottom: 20px;
-	font-family: 'Bitter', serif;
-}
-
-#about-me-text {
-	padding: 10px;
-}
-
-#about-header {
-	text-align: center;
-}
+ END - SKILLS STYLES */
 
 /* #photo {
 	background-color: var(--gold);
@@ -307,21 +298,6 @@ i {
     margin: 0 auto;
 } */
 
-button {
-	background-color: var(--pink);
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 20px;
-	margin: 10px;
-}
-
-button:hover {
-	background-color: var(--gold);
-}
 
 
 /* .container {
