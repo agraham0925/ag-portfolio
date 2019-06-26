@@ -4,12 +4,13 @@
 	--gray: rgb(122, 122, 122);
 };
 
+/* MAIN - GLOBAL STYLES & HEADER BARS */
+
 body {
 	font-family: 'Permanent Marker', cursive;
 	color: var(--gray);
 }
 
-/* MAIN HEADER BARS */
 .bar {
 	background-color: var(--pink);
 	color: var(--pink);
@@ -24,23 +25,39 @@ body {
 	/*padding: 8px;*/
 }
 
-#bg {
-	/*background: url("../images/background.jpg");*/
-	/*height: 300px;*/
-	/*background-position: center;
-  	background-repeat: repeat;
-  	background-size: cover;*/
-  	/*padding: 20px;*/
-}
-
 #transbox {
-  /*background-color: rgba(122, 122, 122,.4);*/
   color: var(--gray);
   border: 4px solid var(--gold);
   padding: 5px;
   text-align: center;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+.navlinks {
+	color: var(--gray);
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#nav {
+	font-family: 'Permanent Marker', cursive;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+	margin-bottom: 5px;
+	z-index:2;
+}
+
+.navlinks:hover {
+	color: var(--pink);
+	text-decoration: none;
+	text-shadow: 5px 5px 10px black;
+}
+
+.navli {
+	list-style-type: none;
+	text-decoration: none;
 }
 
 /* END - MAIN HEADER BARS */
@@ -80,13 +97,9 @@ body {
 
 /* PROJECT PAGE STYLES */
 #projects-body {
-	/*background-color: #f0cfc8;*/
-	/*background-image: linear-gradient(19deg, #f0cfc8 0%, #dabb8b 100%);*/
 	color: var(--gray);
 	font-family: 'Bitter', serif;
 	background-color: #FFFFFF;
-	/* background-image: linear-gradient(45deg, #FFFFFF 0%, #f0cfc8 50%, #dabb8b 100%); */
-
 }
 
 .projectsHeader {
@@ -149,9 +162,6 @@ body {
 }
 
 .currentProjects {
-	/*display: flex;*/
-	/*justify-content: center;
-	align-content: space-between;*/
 	text-align: center;
 }
 
@@ -165,7 +175,6 @@ body {
 #container {
 	display: flex;
 	justify-content: space-around;
-	/*margin: 10px;*/
 }
 
 .container2 {
@@ -216,6 +225,15 @@ body {
 	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.6);
 }
 
+.box {
+	border: 2px solid red;
+	text-align: center;
+	margin: 1em;
+	flex: 0 1 45%;
+	height: 50vh;
+	padding: 0.5em;
+}
+
 /* END - MISC STYLES */
 
 /* ABOUT ME STYLES */
@@ -244,7 +262,6 @@ body {
 footer {
 	display: flex;
 	justify-content: space-around;
-	/*color: var(--gold);*/
 	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.5);
 	
 }
@@ -257,7 +274,6 @@ footer {
 	color: var(--pink);
 	text-shadow: 5px 5px 10px black;
 }
-
 /* END - FOOTER STYLES */
 
 /* CURRENTLY NOT USING - SKILLS STYLES
@@ -306,14 +322,7 @@ i {
 	justify-content: space-evenly;
 } */
 
-.box {
-	border: 2px solid red;
-	text-align: center;
-	margin: 1em;
-	flex: 0 1 45%;
-	height: 50vh;
-	padding: 0.5em;
-}
+
 
 
 
