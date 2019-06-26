@@ -93,6 +93,10 @@ body {
 	transition-duration: 1.5s;
 }
 
+img#photo-main {
+    margin-top: 50px;
+}
+
 /* END - HOME PAGE STYLES */
 
 /* PROJECT PAGE STYLES */
