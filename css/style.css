@@ -23,11 +23,18 @@ body {
 	width: 200px;
 	border-radius: 50%;
 	background-color: var(--gold);
+	text-align: center;
+    line-height: 10;
+    font-size: 20px;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .circle:hover {
 	background-color: var(--pink);
-	transition-duration: 2s;
+	text-shadow: 5px 5px 10px black;
+	/* color: var(--gray); */
+	transition-duration: 1.5s;
 }
 
 #projects-body {
