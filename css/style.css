@@ -25,9 +25,12 @@ body {
 	background-color: var(--gold);
 	text-align: center;
     line-height: 10;
-    font-size: 20px;
+}
+
+.circle a {
 	color: white;
 	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
 }
 
 .circle:hover {
