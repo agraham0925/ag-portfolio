@@ -71,12 +71,12 @@ body {
 }
 
 .circle {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
 	background-color: var(--gold);
 	text-align: center;
-	line-height: 10;
+	line-height: 7;
 	margin-top: 50px;
 }
 
@@ -265,9 +265,8 @@ img#photo-main {
 /* FOOTER STYLES */
 footer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.5);
-	
 }
 
 .footer {
