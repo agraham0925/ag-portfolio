@@ -34,42 +34,55 @@ body {
   margin-top: 5px;
 }
 
-.navlinks {
-	color: var(--gray);
-	text-decoration: none;
-	font-size: 20px;
-}
-
-#nav {
-	font-family: 'Permanent Marker', cursive;
-	display: flex;
-	justify-content: space-around;
-	padding: 5px;
-	margin-bottom: 5px;
-	z-index:2;
-}
-
-.navlinks:hover {
-	color: var(--pink);
-	text-decoration: none;
-	text-shadow: 5px 5px 10px black;
-}
-
-.navli {
-	list-style-type: none;
-	text-decoration: none;
-}
-
 /* END - MAIN HEADER BARS */
 
 /* HOME STYLES */
-.container {
-	display: grid;
-	grid-template-columns: 200px 200px 200px 200px 200px;
-	grid-template-rows: 300px;
-	grid-gap: 50px 50px;
+body {
+	background-color: black;
 }
 
+.page-container {
+	max-width: 500px;
+    padding: 200px 0;
+    margin: auto;
+}
+
+.txt-container {
+	text-align: center;
+}
+
+
+h1.teaser-txt {
+    font-family: 'Permanent Marker', cursive;
+	font-size: 4.5rem;
+	color: rgba(107, 107, 107, 1);
+	margin-bottom:20px;
+}
+
+.container {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    justify-items: center;
+}
+
+a.social-icon {
+    color: var(--gold);
+}
+
+a.social-icon:hover {
+    color: var(--pink);
+	text-shadow: 5px 5px 10px rgba(107, 107, 107, 0.55);
+	/* text-shadow: 5px 5px 10px rgba(245, 244, 244, 0.5) */
+	transition-duration: 1.5s;
+}
+
+/* END - HOME PAGE STYLES */
+
+
+
+/* OLD CSS */
+	/* OLD HOME  */
 .circle {
 	height: 150px;
 	width: 150px;
@@ -87,6 +100,10 @@ body {
 	text-decoration: none;
 }
 
+.circle a:hover {
+	color: var(--gold);
+}
+
 .circle:hover {
 	background-color: var(--pink);
 	text-shadow: 5px 5px 10px black;
@@ -97,9 +114,8 @@ img#photo-main {
     margin-top: 50px;
 }
 
-/* END - HOME PAGE STYLES */
 
-/* PROJECT PAGE STYLES */
+/* OLD PROJECT PAGE STYLES */
 #projects-body {
 	color: var(--gray);
 	font-family: 'Bitter', serif;
@@ -174,6 +190,7 @@ img#photo-main {
 }
 
 /* END - PROJECTS PAGE STYLES */
+
 
 /* MISC STYLES */
 #container {
@@ -261,77 +278,3 @@ img#photo-main {
 }
 
 /* END - ABOUT ME STYLES */
-
-/* FOOTER STYLES */
-footer {
-	display: flex;
-	justify-content: space-evenly;
-	text-shadow: 2px 2px 4px rgba(122, 122, 122, 0.5);
-}
-
-.footer {
-	color: var(--gray);
-}
-
-.footer:hover {
-	color: var(--pink);
-	text-shadow: 5px 5px 10px black;
-}
-/* END - FOOTER STYLES */
-
-/* CURRENTLY NOT USING - SKILLS STYLES
-#skills {
-	text-align: center;
-	background-color: var(--pink);
-	color: var(--gray);
-	padding: 10px;
-	margin-top: 5px;
-}
-
-i {
-	color: var(--gray); 
-	padding: 20px;
-}
-
-#front-skills {
-	padding-bottom: 20px;
-}
-
-#back-end {
-	margin-bottom: 0px;
-}
- END - SKILLS STYLES */
-
-/* #photo {
-	background-color: var(--gold);
-    padding: 10px;
-    max-width: 100%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    border-radius: 15%;
-}
-
-#photo-main {
-    display: block;
-    margin: 0 auto;
-} */
-
-
-
-/* .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-} */
-
-
-
-
-
-
-
-
-
-
-
